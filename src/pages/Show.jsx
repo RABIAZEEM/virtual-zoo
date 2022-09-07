@@ -1,14 +1,8 @@
 import React from 'react';
-import logo from '../assets/img/logo.png'
-
+import { ButtonPurple } from '../components/ButtonPurple';
 function Show() {
   return (
-    <>
-    <div className='container'>
-    <img className='logo' src={logo} alt=""></img>
-    </div>
-    </>
+    <ButtonPurple herf='./List'></ButtonPurple>
   )
 }
-
 export default Show
