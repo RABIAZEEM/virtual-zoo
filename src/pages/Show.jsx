@@ -2,7 +2,9 @@ import React from 'react'
 
 function Show() {
   return (
-    <div>Show</div>
+    <img class= "imgbird"/>
+    <button class= "btn-purple" onClick={this.props.onClick}></button>
+    <div class= "form-group"></div>
   )
 }
 
