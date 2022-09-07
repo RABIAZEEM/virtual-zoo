@@ -1,4 +1,5 @@
 import React from 'react'
+<<<<<<< HEAD
 import logo from '../assets/img/logo.png'
 
 function Show() {
