@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react'; 
+import logo from '../assets/img/logo.png';
+
 
 
 function Home() {
   return (
-    <div>Home</div>
-   
+    <>
+    <div className="container">
+    <img className='logo' src={logo} alt=""></img>
+    </div>
+    </>
   )
 }
 
