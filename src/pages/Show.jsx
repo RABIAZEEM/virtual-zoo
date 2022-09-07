@@ -1,10 +1,13 @@
 import React from 'react'
+import logo from '../assets/img/logo.png'
 
 function Show() {
   return (
-    <img class= "imgbird"/>
-    <button class= "btn-purple" onClick={this.props.onClick}></button>
-    <div class= "form-group"></div>
+    <>
+    <div className='container'>
+    <img className='logonavbar' src={logo} alt=""></img>
+    </div>
+    </>
   )
 }
 
