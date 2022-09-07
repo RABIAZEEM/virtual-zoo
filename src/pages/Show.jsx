@@ -1,10 +1,9 @@
 import React from 'react'
+import { ButtonPurple } from '../components/ButtonPurple';
 
 function Show() {
   return (
-    <img class= "imgbird"/>
-    <button class= "btn-purple" onClick={this.props.onClick}></button>
-    <div class= "form-group"></div>
+    <ButtonPurple/>
   )
 }
 
